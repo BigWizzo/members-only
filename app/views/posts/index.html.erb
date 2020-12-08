@@ -14,9 +14,11 @@
   <tbody>
     <% @posts.each do |post| %>
       <tr>
+        <% if user_signed_in? %>
+        <td><%= post.user.name %></td>
+        <% end %>
         <td><%= post.title %></td>
         <td><%= post.body %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
       </tr>
     <% end %>
   </tbody>
@@ -24,4 +26,8 @@
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+<%= link_to 'New Post', new_post_path %><br/>
+
+<% if user_signed_in? %>
+<%= link_to "Logout", destroy_user_session_path, method: :delete  %>
+<% end %>
