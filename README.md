@@ -5,8 +5,10 @@
 # Project Description
 
 > Ruby on Rails - Authentication:
+- We created this project to work with Authentication using the Devise Gem for Ruby on Rails. In this project, we created a blog that allows only logged in users to create new posts and view the name of the author.
 
-- Devise Gem
+- We styled the project with Bootstrap.
+
 - Models 
 - Data Structures & Relationships
 - Migrations
@@ -16,6 +18,7 @@
 
 ## Built With
 - Ruby on Rails
+- Devise Gem
 
 ## Getting Started
 - To get a local copy up and running follow these simple steps.
@@ -33,6 +36,7 @@
 - run `bundle install`
 - run `yarn install`
 - run `rails server`
+- run `rails db:migrate`
 
 ## Authors
 
