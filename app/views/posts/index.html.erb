@@ -12,17 +12,11 @@
   </thead>
 
   <tbody>
-    <% @pos.each do |post| %>
-      <tr>
-<<<<<<< HEAD
+    <% @post.each do |post| %>
+      <tr> 
         <% if user_signed_in? %>
         <td><%= post.user.name %></td>
         <% end %>
-=======
-      <% if current_user %>
-        <td><%= post.user.name %></td>
-      <% end %>
->>>>>>> cc1ec489b04b41ae27b674be5aead8f062d85ea6
         <td><%= post.title %></td>
         <td><%= post.body %></td>
       </tr>
