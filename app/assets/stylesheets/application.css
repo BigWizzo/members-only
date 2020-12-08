@@ -14,4 +14,8 @@
  *= require_self
  */
 
+ .form-group {
+   display: flex;
+   flex-direction: column;
+ }
 
