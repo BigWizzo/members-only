@@ -1,24 +1,57 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h1 align="center">Members-Only</h1>
 
-Things you may want to cover:
+# Project Description
 
-* Ruby version
+> Ruby on Rails - Authentication:
 
-* System dependencies
+- Devise Gem
+- Models 
+- Data Structures & Relationships
+- Migrations
+- Controllers
+- Associations
+- Validations
 
-* Configuration
+## Built With
+- Ruby on Rails
 
-* Database creation
+## Getting Started
+- To get a local copy up and running follow these simple steps.
 
-* Database initialization
+### Install
+- yarn
+- Ruby
+- Ruby on Rails
+- Text Editor
 
-* How to run the test suite
+### Instructions
+- Open the console
+- Download or `git clone https://github.com/BigWizzo/members-only.git`
+- `cd members-only`
+- run `bundle install`
+- run `yarn install`
+- run `rails server`
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Will Nyamunokora**
+- Github: [@bigwizzo](https://github.com/bigwizzo)
+- Twitter: [@willnyamunokora](https://twitter.com/willnyamunokora)
+- Linkedin: [Will Nyamunokora](https://linkedin.com/in/willnyamunokora)
 
-* ...
+👤 **Thales Neves**
+- GitHub: [@thneves](https://github.com/thneves)
+- Twitter: [@tsneves11](https://twitter.com/tsneves11)
+- LinkedIn: [thales-neves10](https://www.linkedin.com/in/thales-neves10/)
+
+## Contributing
+Contributions, issues and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/BigWizzo/members-only/issues).
+
+## Show your support
+Give a ⭐️ if you like this project!
+
+## License
+This project is [MIT](./LICENSE) licensed.
